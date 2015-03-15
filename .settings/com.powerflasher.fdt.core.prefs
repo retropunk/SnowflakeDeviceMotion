@@ -88,9 +88,9 @@ com.powerflasher.fdt.core.mobile.iOS.ICON.PATH.76x76=
 com.powerflasher.fdt.core.mobile.iOS.ICON.PATH.80x80=
 com.powerflasher.fdt.core.mobile.iOS.MOBILE.DESCRIPTOR=bin/SnowflakeDeviceMotion-app.xml
 com.powerflasher.fdt.core.mobile.iOS.PACKAGE.CONTENT=bin/SnowflakeDeviceMotion-app.xml > SnowflakeDeviceMotion-app.xml;bin/SnowflakeDeviceMotion.swf > SnowflakeDeviceMotion.swf;bin/assets;
-com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.CERTIFICATE=../../../../../Dropbox/_code/ios-certificates/ios-distribution.p12
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.CERTIFICATE=../../../Dropbox/_code/ios-certificates/ios-distribution.p12
 com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.CERTIFICATE.RELEASE=
-com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.PROVISIONING.FILE=../../../../../Dropbox/_code/ios-certificates/STP_Distribution.mobileprovision
+com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.PROVISIONING.FILE=../../../Dropbox/_code/ios-certificates/STP_Distribution.mobileprovision
 com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.PROVISIONING.FILE.RELEASE=
 com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.PWD=+j8B4XAxqQIdmx2bZQM3/g\=\=
 com.powerflasher.fdt.core.mobile.iOS.SIGNATURE.PWD.RELEASE=HZsdm2UDN/4\=

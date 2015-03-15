@@ -1,0 +1,30 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.distriqt.DeviceMotion</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.devicemotion.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.devicemotion.DeviceMotionExtension</initializer>
+				<finalizer>com.distriqt.extension.devicemotion.DeviceMotionExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libDeviceMotion.a</nativeLibrary>
+				<initializer>DeviceMotionExtInitializer</initializer>
+				<finalizer>DeviceMotionExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libDeviceMotion.a</nativeLibrary>
+				<initializer>DeviceMotionExtInitializer</initializer>
+				<finalizer>DeviceMotionExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+	</platforms>
+</extension>

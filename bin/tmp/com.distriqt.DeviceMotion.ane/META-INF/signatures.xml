@@ -1,0 +1,99 @@
+<signatures>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/TR/xmldsig-core#rsa-sha1"/>
+      <Reference URI="#PackageContents">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>MaR25836i8lAiv3Ki1FDeCKFiDPTGAi4b020xJAaB2I=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue Id="PackageSignatureValue">e167bGasCiSeAd2XKdVU5UkUt0O2Hokb/blgrLFlz+Nfjx3tP40aIaP5qE70AJeJzdVDiKuYQE4N
+NosK8xttRFvgo06M+K9U47uEd4majqqx4R0uCocByMCNNRHOpmfZovCnvOaSV9T8OqqI9hTp1ftY
+hRhEoixW8Wq8YGSEHC/k8IOY/Ewr5LRGdyTCPhPUiLgX3X97WVzSiFeLiYG+4KUq2XskwesAMS1U
+onqbbKGY1sz48oTx8YMMnM/zRVULDpDIp65RHbmxlif8wAwz0Qcv+OvZSriPiXuOzzPT9BLWEtyx
+PMY14GEcp662MmTRbyC0FPoKbVvBIOJ0pwaloQ==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIIDIDCCAgigAwIBAgIZOTAxNmJiOToxNDhhYWY3MTcwMDotODAwMDANBgkqhkiG9w0BAQUFADA7
+MRkwFwYDVQQKExBkaXN0cmlxdCBQdHkgTHRkMQswCQYDVQQLEwJBVTERMA8GA1UEAxMIZGlzdHJp
+cXQwHhcNMTQwOTI0MDM1OTUzWhcNMzQwOTI1MDM1OTUzWjA7MRkwFwYDVQQKExBkaXN0cmlxdCBQ
+dHkgTHRkMQswCQYDVQQLEwJBVTERMA8GA1UEAxMIZGlzdHJpcXQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCOZPOT/DnnG9Tl74Z/H3nWSIZ2QYnQj2gZ+XKn4raokOFl40o+AqjEXtWY
+lJp5qJg2gNu/QctY2ektjS4zOZWd8VM232KCc8L7lBc9JCH68Ch2VYPGzkoejzIf27sMBOhFNqBI
+czj8aCUfnTQv4ldGhp1IWDCk1TkVFIH2qcCyz8AKpSzCbgF7Fg4ue9U58wzRWYTKJXRMEsXphKG5
+q4wcdeeKsoXQYDzwQDJH64NluFvcA1bx1IUHqWA2wpWiQ4QUHmp9FCnsu64RwXTZX8vHcP9p35I1
+iZZOaFZqjeE3mc0K/jZKA/IpXlh+1vANrlV/rN0P3lIYL7ppKNhiGZqLAgMBAAGjFzAVMBMGA1Ud
+JQQMMAoGCCsGAQUFBwMDMA0GCSqGSIb3DQEBBQUAA4IBAQAcILnal0o3srS8R9hMg+/JMHg2FEuT
+HMEdnQmAsAj0uQ06j0CG8ZIE+k+YvUfm88+TiFeCY+MJameHTam6Bg43v3sIm2cngK+K/oftbSys
+JbWiQTRDm5353WYdUCJ3D+p2E1ShUbA8Rs0OR9Hol+qQWV18AxqX1B0I6NxMDSjiLbN36TETfNFw
+77igW5tR03TnxOV9oaUWVs3XOhlSseZFdQPqnarIGrYoHUdv3O62LyedWb3WFf+YCDGWX5H19a5f
+bH+AOD0rC1sLHsORhnG7kCiwFKavcnk/89QaycAGYBJ4pJQsHETlnUnl31W7w8PlhdPWdvDAiDcp
+kqHkIyod</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+    <Object>
+      <Manifest Id="PackageContents">
+        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>QfjPqwYNSozTaKi3Ar1Veog4uaFk5DPieQA0v9uRJdY=</DigestValue></Reference><Reference URI="META-INF/ANE/extension.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>tj+p0jh+3vmFnXAkGata8Px31EoYYTPHymBm91qpaWc=</DigestValue></Reference><Reference URI="catalog.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>PF2Pf2sCCFAk+hsl9iDzpIN8AlKTGQ8cH4LP57jMzMk=</DigestValue></Reference><Reference URI="library.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>J4yNS9dB+I9umIVWUg8jBFSY9KvDrYt17tVi9uZfOLM=</DigestValue></Reference><Reference URI="META-INF/ANE/Android-ARM/distriqt.extension.devicemotion.android.jar"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>rg1jYgCafLOhN6VJJOnjw6xA2TEK7TX90l6BYHA+DuA=</DigestValue></Reference><Reference URI="META-INF/ANE/Android-ARM/library.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>J4yNS9dB+I9umIVWUg8jBFSY9KvDrYt17tVi9uZfOLM=</DigestValue></Reference><Reference URI="META-INF/ANE/default/distriqt.extension.devicemotion.default.swc"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>QMDGzv+igH2nNSpe/743JoBp1ab1gc+hvh6w8uWFrGA=</DigestValue></Reference><Reference URI="META-INF/ANE/default/library.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>/rNLnw0O/jNPhcucI7qcxLIDXm7y69hedO4ZujdwuDs=</DigestValue></Reference><Reference URI="META-INF/ANE/iPhone-ARM/libDeviceMotion.a"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>XHLKnwQXhaHVMAIPwF6EwsiCu88uxRt7HUy1O09cKFA=</DigestValue></Reference><Reference URI="META-INF/ANE/iPhone-ARM/library.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>J4yNS9dB+I9umIVWUg8jBFSY9KvDrYt17tVi9uZfOLM=</DigestValue></Reference><Reference URI="META-INF/ANE/iPhone-ARM/platform.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>84vABDmHDfJDPZR1IICNe19yPhKSdssPnyqENxpB5rE=</DigestValue></Reference><Reference URI="META-INF/ANE/iPhone-x86/libDeviceMotion.a"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>eLPOvlcqF/3XhZRYqQIEepEc1Cy1QTQTzNgUfBU4O6k=</DigestValue></Reference><Reference URI="META-INF/ANE/iPhone-x86/library.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>J4yNS9dB+I9umIVWUg8jBFSY9KvDrYt17tVi9uZfOLM=</DigestValue></Reference><Reference URI="META-INF/ANE/iPhone-x86/platform.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>84vABDmHDfJDPZR1IICNe19yPhKSdssPnyqENxpB5rE=</DigestValue></Reference>
+      </Manifest>
+    </Object>
+    <Object xmlns:xades="http://uri.etsi.org/01903/v1.1.1#" > 
+  <xades:QualifyingProperties>
+    <xades:UnsignedProperties > 
+      <xades:UnsignedSignatureProperties>
+        <xades:SignatureTimeStamp>
+     	  <xades:HashDataInfo uri="#PackageSignatureValue">
+     	    <Transforms>
+          	  <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            </Transforms>
+            <xades:EncapsulatedTimeStamp>
+              MIIIQgYJKoZIhvcNAQcCoIIIMzCCCC8CAQMxCzAJBgUrDgMCGgUAMIGvBgsqhkiG9w0BCRABBKCB
+nwSBnDCBmQIBAQYCKQIwITAJBgUrDgMCGgUABBQPs08If1zHjZVA/HXZq2n6YUrZuAIEN8Hf3RgP
+MjAxNTAyMjIxMDQxNDZaMAMCATygUaRPME0xCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxHZW9UcnVz
+dCBJbmMxJzAlBgNVBAMTHkdlb1RydXN0IFRpbWVzdGFtcGluZyBTaWduZXIgMaCCBY8wggLmMIIC
+T6ADAgECAhBejS2spEZlVGu1h5eBkai/MA0GCSqGSIb3DQEBBQUAMIGLMQswCQYDVQQGEwJaQTEV
+MBMGA1UECBMMV2VzdGVybiBDYXBlMRQwEgYDVQQHEwtEdXJiYW52aWxsZTEPMA0GA1UEChMGVGhh
+d3RlMR0wGwYDVQQLExRUaGF3dGUgQ2VydGlmaWNhdGlvbjEfMB0GA1UEAxMWVGhhd3RlIFRpbWVz
+dGFtcGluZyBDQTAeFw0wNzEwMzEwMDAwMDBaFw0xNzEwMzAyMzU5NTlaME0xCzAJBgNVBAYTAlVT
+MRUwEwYDVQQKEwxHZW9UcnVzdCBJbmMxJzAlBgNVBAMTHkdlb1RydXN0IFRpbWVzdGFtcGluZyBT
+aWduZXIgMTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAr2cSRUIuWwkzzCmZ7JAkmml3LgpP
+UWIwZGkule4Cdqm1sYykLX1Fw/kF5lbYnjQZGStQPfUnfa+RbQKnGNk+0SSYJWcApzfUouoWolC9
+9TgXjwJJcZIfQnk8cmoKleXF+TkEQgiBTxKhDUa4KhayhbDvWh903qhKp0e6jo5T/pkCAwEAAaOB
+hzCBhDAMBgNVHRMBAf8EAjAAMEwGA1UdHwRFMEMwQaA/oD2GO2h0dHA6Ly90c3MtZ2VvdHJ1c3Qt
+Y3JsLnRoYXd0ZS5jb20vVGhhd3RlVGltZXN0YW1waW5nQ0EuY3JsMA4GA1UdDwEB/wQEAwIGwDAW
+BgNVHSUBAf8EDDAKBggrBgEFBQcDCDANBgkqhkiG9w0BAQUFAAOBgQCp8h1xrhHJJ0mPaN/n3gzf
+qZ5J/SIs9aQD/tZsI6zzsvyS9uxqwrhS2IzRyvrrxQyYgdn2zlwzTn7W1I+yvJ2Bc+rwbOOpwW7X
+9tlGoAdDnNn3YGHDL27aUD4WoCgM7OQBoeRsmdXCMah96y0TAilp2R6WF0D72u9i14QHsYL5kTCC
+AqEwggIKoAMCAQICAQAwDQYJKoZIhvcNAQEEBQAwgYsxCzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxX
+ZXN0ZXJuIENhcGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQKEwZUaGF3dGUxHTAbBgNV
+BAsTFFRoYXd0ZSBDZXJ0aWZpY2F0aW9uMR8wHQYDVQQDExZUaGF3dGUgVGltZXN0YW1waW5nIENB
+MB4XDTk3MDEwMTAwMDAwMFoXDTIwMTIzMTIzNTk1OVowgYsxCzAJBgNVBAYTAlpBMRUwEwYDVQQI
+EwxXZXN0ZXJuIENhcGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQKEwZUaGF3dGUxHTAb
+BgNVBAsTFFRoYXd0ZSBDZXJ0aWZpY2F0aW9uMR8wHQYDVQQDExZUaGF3dGUgVGltZXN0YW1waW5n
+IENBMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWK1h4YUWGU+o0e1Gc7bDmLhgO/uBfqCfT
+tMngfFlOFg5zVGDBf/afLuk6hSQVPNtHBGPDnsSUGlrfTHrz2UMdPBB6eSXbkP7wUecw1kEA/Z8o
+33m+lLudthTjI4XXqUHgTKR5sCsai/L4O4o+RaxxkgC0kEGY+1/t+rcuiviINwIDAQABoxMwETAP
+BgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBBAUAA4GBAGfb4sLmhz1Ag4Y3NX0fzprDDGYgqLqq
+BImGwvUQCA2/y6IFitBNNj701+9pxl7ksJRvSrnn3luItnvb4yfldsPwNcHLtSebM3nckKYAnnf6
+/M0nlEIWnNMcaOy/XN3lqXsQCjJ0VBMxi4UDhJG3WAEwFDivKMr8sVAZGQmsiUnTMYIB1jCCAdIC
+AQEwgaAwgYsxCzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENhcGUxFDASBgNVBAcTC0R1
+cmJhbnZpbGxlMQ8wDQYDVQQKEwZUaGF3dGUxHTAbBgNVBAsTFFRoYXd0ZSBDZXJ0aWZpY2F0aW9u
+MR8wHQYDVQQDExZUaGF3dGUgVGltZXN0YW1waW5nIENBAhBejS2spEZlVGu1h5eBkai/MAkGBSsO
+AwIaBQCggYwwGgYJKoZIhvcNAQkDMQ0GCyqGSIb3DQEJEAEEMBwGCSqGSIb3DQEJBTEPFw0xNTAy
+MjIxMDQxNDZaMCMGCSqGSIb3DQEJBDEWBBSBtlhwQABzp1pLUqvlytz/WWr8BjArBgsqhkiG9w0B
+CRACDDEcMBowGDAWBBQiPNonB5ZzgWtgihuMsKsCMBB/zDANBgkqhkiG9w0BAQEFAASBgIqRwu35
+6PayOk1MLfNeMktV0FpD1Y0FvodB86x3T573OPzubJwEhmrOt9Kg/onJYC2jgxugkwxvTL1uuQnS
+aBwAxy1YQg/tcWPehnLsks6wJTAS/fRwQzD/wL0LTdiRrjoEqSWp4or9nPsv78kLnoFD6E+wkdXw
+E5BXOHPf8rBt
+            </xades:EncapsulatedTimeStamp>     	
+     	  </xades:HashDataInfo>     	
+        </xades:SignatureTimeStamp>
+      </xades:UnsignedSignatureProperties> 
+    </xades:UnsignedProperties>
+  </xades:QualifyingProperties>
+</Object>
+  </Signature>
+</signatures>

@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <flex version="4.7.0" build="354143" minimumSupportedVersion="3.0.0"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354143"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/distriqt/extension/devicemotion/DeviceMotion" mod="1424596721000">
+                <def id="com.distriqt.extension.devicemotion:DeviceMotion"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Number" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.devicemotion:DeviceMotionOptions" type="s"/>
+                <dep id="com.distriqt.extension.devicemotion.events:DeviceMotionEvent" type="e"/>
+                <dep id="com.distriqt.extension.devicemotion.events:GenericEvent" type="e"/>
+                <dep id="flash.events:ErrorEvent" type="e"/>
+                <dep id="flash.events:Event" type="s"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/devicemotion/DeviceMotionOptions" mod="1422604686000">
+                <def id="com.distriqt.extension.devicemotion:DeviceMotionOptions"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.devicemotion:SensorRate" type="e"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/devicemotion/SensorRate" mod="1387238154000">
+                <def id="com.distriqt.extension.devicemotion:SensorRate"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/devicemotion/events/DeviceMotionEvent" mod="1400113407000">
+                <def id="com.distriqt.extension.devicemotion.events:DeviceMotionEvent"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/devicemotion/events/GenericEvent" mod="1387158077000">
+                <def id="com.distriqt.extension.devicemotion.events:GenericEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="278c8d4bd741f88f6e988556520f23045498f4abc3ad8b75eed562f6e65f38b3"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>
