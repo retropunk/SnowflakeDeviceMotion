@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>SnowflakeDeviceMotion</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.powerflasher.fdt.core.FlashBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.powerflasher.fdt.core.FlashNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Distriqt_DeviceMotion.ane</name>
+			<type>1</type>
+			<locationURI>Distriqt_DeviceMotion</locationURI>
+		</link>
+		<link>
+			<name>FFFParticleSystem</name>
+			<type>2</type>
+			<locationURI>FFFParticleSystem</locationURI>
+		</link>
+		<link>
+			<name>Starling_v151</name>
+			<type>2</type>
+			<locationURI>Starling_v151</locationURI>
+		</link>
+		<link>
+			<name>Starling_v1_6</name>
+			<type>2</type>
+			<locationURI>Starling_v1_6</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/17.0">
+  <id>com.snaptopixels.TheWind</id>
+  <filename>SnowflakeDeviceMotion</filename>
+  <name>SnowflakeDeviceMotion</name>
+  <versionNumber>1.0.0</versionNumber>
+  <initialWindow>
+    <content>SnowflakeDeviceMotion.swf</content>
+    <aspectRatio>landscape</aspectRatio>
+    <fullScreen>true</fullScreen>
+    <autoOrients>true</autoOrients>
+    <visible>true</visible>
+    <renderMode>direct</renderMode>
+  </initialWindow>
+  <iPhone>
+    <InfoAdditions><![CDATA[<key>UIDeviceFamily</key>
+  <array>
+    <string>2</string>
+  </array>
+  <key>UIStatusBarStyle</key>
+  <string>UIStatusBarStyleBlackOpaque</string>
+  <key>UIRequiresPersistentWiFi</key>
+  <string>NO</string>]]></InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  <supportedProfiles>mobileDevice extendedMobileDevice</supportedProfiles>
+  <supportedLanguages>en</supportedLanguages>
+  <extensions>
+    <extensionID>com.distriqt.DeviceMotion</extensionID>
+  </extensions>
+</application>
+
