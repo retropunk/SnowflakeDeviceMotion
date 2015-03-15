@@ -1,7 +1,7 @@
 AnePlatforms/Id.Distriqt_DeviceMotion.ane=com.distriqt.DeviceMotion
 AnePlatforms/Platforms.Distriqt_DeviceMotion.ane=Android-ARM,iPhone-ARM,iPhone-x86,default
 com.powerflasher.fdt.core.CompatiblePlayers=AIR_Debug_Launcher
-com.powerflasher.fdt.core.CompilerArguments=-static-link-runtime-shared-libraries\=false\n-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400\n-swf-version\=28
+com.powerflasher.fdt.core.CompilerArguments=-static-link-runtime-shared-libraries\=true\n-target-player\={playerVersion}\n-library-path+\="{flexSDK}/frameworks/locale/en_US"\n-default-size\=550,400
 com.powerflasher.fdt.core.CompilerConstants=CONFIG\:\:AUTHOR\!"{user.name}"\nCONFIG\:\:DEBUG\!{debug}
 com.powerflasher.fdt.core.DefaultOutputFolder=bin
 com.powerflasher.fdt.core.DefaultPlayer=AIR_Debug_Launcher
@@ -17,7 +17,7 @@ com.powerflasher.fdt.core.PlayerVersion=17.0
 com.powerflasher.fdt.core.ProjectTypeHint=AIR Mobile
 com.powerflasher.fdt.core.Runtime=AIR
 com.powerflasher.fdt.core.SdkName=AIR 17.0.0.124
-com.powerflasher.fdt.core.mobile.AirDesktop.ACTIVE=false
+com.powerflasher.fdt.core.mobile.AirDesktop.ACTIVE=true
 com.powerflasher.fdt.core.mobile.AirDesktop.AVAILABLE.EXTENSIONS=com.distriqt.DeviceMotion
 com.powerflasher.fdt.core.mobile.AirDesktop.CUSTOM.ADT.CMD.LINE=${package} ${signing} ${target} ${connection} ${sampler} ${provision} ${output} ${content} ${icons}
 com.powerflasher.fdt.core.mobile.AirDesktop.CUSTOMIZE.ADT.ARGS=false
@@ -58,7 +58,7 @@ com.powerflasher.fdt.core.mobile.Android.SIGNATURE.CERTIFICATE=android.p12
 com.powerflasher.fdt.core.mobile.Android.SIGNATURE.PWD=50s9j/orK34\=
 com.powerflasher.fdt.core.mobile.Android.SIGNATURE.REMEMBER.PWD=true
 com.powerflasher.fdt.core.mobile.Android.SWFPATH=
-com.powerflasher.fdt.core.mobile.iOS.ACTIVE=true
+com.powerflasher.fdt.core.mobile.iOS.ACTIVE=false
 com.powerflasher.fdt.core.mobile.iOS.AVAILABLE.EXTENSIONS=com.distriqt.DeviceMotion
 com.powerflasher.fdt.core.mobile.iOS.CUSTOM.ADT.CMD.LINE=${package} ${target} ${connection} ${sampler} ${market} ${special} ${legacyaot} ${signing} ${provision} ${output} ${content} ${icons} ${platformsdk}
 com.powerflasher.fdt.core.mobile.iOS.CUSTOMIZE.ADT.ARGS=false

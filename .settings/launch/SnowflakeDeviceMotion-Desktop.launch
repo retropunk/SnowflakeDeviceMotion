@@ -3,7 +3,7 @@
 <stringAttribute key="ADL_DESCRIPTOR_FILE" value="bin/SnowflakeDeviceMotion-app.xml"/>
 <stringAttribute key="ADL_SCREENSIZE" value="768x984:768x1024"/>
 <booleanAttribute key="ADVANCED_TELEMTRY" value="true"/>
-<intAttribute key="AIR_VIEWER_CONF" value="2"/>
+<intAttribute key="AIR_VIEWER_CONF" value="1"/>
 <stringAttribute key="APP_ARGUMENTS" value=""/>
 <stringAttribute key="ARGUMENTS" value=""/>
 <listAttribute key="COMPILER_CONSTANTS"/>
@@ -34,7 +34,7 @@
 <booleanAttribute key="SAMPLER" value="true"/>
 <booleanAttribute key="START_DEBUGGER" value="true"/>
 <stringAttribute key="START_SWF_WITH" value="AIR Debug Launcher"/>
-<stringAttribute key="TARGET_PLATFORM" value="iOS"/>
+<stringAttribute key="TARGET_PLATFORM" value="AirDesktop"/>
 <stringAttribute key="TARGET_PLATFORM_CONFIG" value="Primary"/>
 <booleanAttribute key="USE_PROJECT_COMPILER_ARGUMENTS" value="true"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
