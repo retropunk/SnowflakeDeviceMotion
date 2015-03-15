@@ -33,7 +33,6 @@ package com.snaptopixels.TheWind
 
 		private var tiltPercentage : Number;
 		private var dragPercentage : Number;
-		private var isUsingTouch : Boolean = false;
 
 		private var particle : FFParticleSystem;
 		private var sysOpt : SystemOptions;
@@ -86,8 +85,6 @@ package com.snaptopixels.TheWind
 
 				DeviceMotion.service.register( options );
 			}
-
-			this.stage.addEventListener( TouchEvent.TOUCH, handleTouch );
 		}
 
 		private function deviceMotion_updateHandler(event : DeviceMotionEvent) : void
@@ -102,40 +99,13 @@ package com.snaptopixels.TheWind
 				}
 			}
 
-			if (!isUsingTouch)
-			{
-				tiltPercentage = pitch / (pitch_range * 0.5);
-				particleX_position = Math.round( particleX_range * tiltPercentage );
+			tiltPercentage = pitch / (pitch_range * 0.5);
+			particleX_position = Math.round( particleX_range * tiltPercentage );
 
-				if (nativeStage.deviceOrientation == "rotatedRight") particleX_position = -particleX_position;
+			if (nativeStage.deviceOrientation == "rotatedRight") particleX_position = -particleX_position;
 
-				particle.gravityX = particleX_position;
-			}
+			particle.gravityX = particleX_position;
 
-		}
-
-		private function handleTouch(event : TouchEvent) : void
-		{
-			var touchMove : Touch = event.getTouch( this.stage, TouchPhase.MOVED );
-			var touchEnd : Touch = event.getTouch( this.stage, TouchPhase.ENDED );
-
-			if (touchMove)
-			{
-				isUsingTouch = true;
-				dragPercentage = (touchMove.globalX / 2048);
-				particleX_position = Math.round( particleX_range * dragPercentage - particleX_max_value );
-
-				if (nativeStage.deviceOrientation == "rotatedRight")
-				{
-					particleX_position = -particleX_position;
-				}
-				particle.gravityX = particleX_position;
-			}
-			if (touchEnd)
-			{
-				isUsingTouch = false;
-				particle.gravityX = 0;
-			}
 		}
 
 	}
